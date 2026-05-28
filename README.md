@@ -64,7 +64,7 @@ bun run build
 
 Publishing runs from GitHub releases through `.github/workflows/publish.yml`.
 
-The workflow publishes to npm, GitHub Packages, and JSR.
+The workflow publishes to npm and JSR with GitHub OpenID Connect tokens.
 
 Before the first npm release, configure npm trusted publishing for `@enderdash/client` with:
 
@@ -75,7 +75,5 @@ Before the first npm release, configure npm trusted publishing for `@enderdash/c
 Before the first JSR release, create or open `@enderdash/client` on JSR, then link it to:
 
 - repository: `enderdash-com/enderdash-client`
-
-GitHub Packages publishes through `GITHUB_TOKEN`. After the first GitHub Packages publish, check the package visibility and access settings in GitHub Packages.
 
 Then publish by creating a GitHub release for the version in `package.json`.
