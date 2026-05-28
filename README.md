@@ -64,10 +64,16 @@ bun run build
 
 Publishing runs from GitHub releases through `.github/workflows/publish.yml`.
 
-The workflow uses npm provenance and GitHub's OpenID Connect token. Before the first release, configure npm trusted publishing for `@enderdash/client` with:
+The workflow publishes to npm and JSR with GitHub OpenID Connect tokens.
+
+Before the first npm release, configure npm trusted publishing for `@enderdash/client` with:
 
 - owner: `enderdash-com`
 - repository: `enderdash-client`
 - workflow: `publish.yml`
+
+Before the first JSR release, create or open `@enderdash/client` on JSR, then link it to:
+
+- repository: `enderdash-com/enderdash-client`
 
 Then publish by creating a GitHub release for the version in `package.json`.
