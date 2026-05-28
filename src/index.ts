@@ -1,3 +1,8 @@
+/**
+ * Generated TypeScript client for the EnderDash HTTP API.
+ *
+ * @module
+ */
 import { configureTRPCHeyApiClient } from "@trpc/openapi/heyapi";
 import superjson from "superjson";
 import { client } from "./generated/client.gen.js";

@@ -1,9 +1,23 @@
 {
   "name": "@enderdash/client",
-  "version": "0.1.1",
-  "description": "TypeScript client for the EnderDash HTTP API.",
+  "version": "0.1.2",
+  "description": "Generated TypeScript client for the EnderDash HTTP API.",
+  "keywords": [
+    "enderdash",
+    "minecraft",
+    "server-management",
+    "api-client",
+    "typescript",
+    "trpc",
+    "openapi"
+  ],
+  "homepage": "https://enderdash.com",
   "type": "module",
   "license": "MIT",
+  "author": {
+    "name": "EnderDash",
+    "url": "https://enderdash.com"
+  },
   "packageManager": "bun@1.3.14",
   "engines": {
     "node": ">=22"
@@ -15,10 +29,10 @@
   "bugs": {
     "url": "https://github.com/enderdash-com/enderdash-client/issues"
   },
-  "homepage": "https://github.com/enderdash-com/enderdash-client#readme",
   "files": [
     "dist"
   ],
+  "sideEffects": false,
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
