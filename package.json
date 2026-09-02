@@ -18,7 +18,7 @@
     "name": "EnderDash",
     "url": "https://enderdash.com"
   },
-  "packageManager": "bun@1.3.14",
+  "packageManager": "bun@1.4.0",
   "engines": {
     "node": ">=22"
   },
