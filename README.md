@@ -77,3 +77,8 @@ Before the first JSR release, create or open `@enderdash/client` on JSR, then li
 - repository: `enderdash-com/enderdash-client`
 
 Then publish by creating a GitHub release for the version in `package.json`.
+
+## Contributing and support
+
+Read [the contribution guide](CONTRIBUTING.md) for development and review.
+Use [the support guide](SUPPORT.md) for questions and issue routing.
