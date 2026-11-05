@@ -50,7 +50,7 @@ export class Admin extends HeyApiClient {
     /**
      * Create OAuth Provider Client
      *
-     * Create OAuth Provider Client. This POST operation is exposed from the admin router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Create OAuth Provider Client. This POST operation is exposed from the admin router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public createOAuthProviderClient<ThrowOnError extends boolean = false>(options: Options<AdminCreateOAuthProviderClientData, ThrowOnError>) {
         return (options.client ?? this.client).post<AdminCreateOAuthProviderClientResponses, AdminCreateOAuthProviderClientErrors, ThrowOnError>({
@@ -71,7 +71,7 @@ export class Admin extends HeyApiClient {
     /**
      * Delete OAuth Provider Client
      *
-     * Delete OAuth Provider Client. This POST operation is exposed from the admin router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Delete OAuth Provider Client. This POST operation is exposed from the admin router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public deleteOAuthProviderClient<ThrowOnError extends boolean = false>(options: Options<AdminDeleteOAuthProviderClientData, ThrowOnError>) {
         return (options.client ?? this.client).post<AdminDeleteOAuthProviderClientResponses, AdminDeleteOAuthProviderClientErrors, ThrowOnError>({
@@ -92,7 +92,7 @@ export class Admin extends HeyApiClient {
     /**
      * List OAuth Provider Clients
      *
-     * List OAuth Provider Clients. This GET operation is exposed from the admin router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * List OAuth Provider Clients. This GET operation is exposed from the admin router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public listOAuthProviderClients<ThrowOnError extends boolean = false>(options?: Options<AdminListOAuthProviderClientsData, ThrowOnError>) {
         return (options?.client ?? this.client).get<AdminListOAuthProviderClientsResponses, AdminListOAuthProviderClientsErrors, ThrowOnError>({
@@ -109,7 +109,7 @@ export class Admin extends HeyApiClient {
     /**
      * Rotate OAuth Provider Client Secret
      *
-     * Rotate OAuth Provider Client Secret. This POST operation is exposed from the admin router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Rotate OAuth Provider Client Secret. This POST operation is exposed from the admin router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public rotateOAuthProviderClientSecret<ThrowOnError extends boolean = false>(options: Options<AdminRotateOAuthProviderClientSecretData, ThrowOnError>) {
         return (options.client ?? this.client).post<AdminRotateOAuthProviderClientSecretResponses, AdminRotateOAuthProviderClientSecretErrors, ThrowOnError>({
@@ -130,7 +130,7 @@ export class Admin extends HeyApiClient {
     /**
      * Update OAuth Provider Client
      *
-     * Update OAuth Provider Client. This POST operation is exposed from the admin router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Update OAuth Provider Client. This POST operation is exposed from the admin router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public updateOAuthProviderClient<ThrowOnError extends boolean = false>(options: Options<AdminUpdateOAuthProviderClientData, ThrowOnError>) {
         return (options.client ?? this.client).post<AdminUpdateOAuthProviderClientResponses, AdminUpdateOAuthProviderClientErrors, ThrowOnError>({
@@ -153,7 +153,7 @@ export class Activity extends HeyApiClient {
     /**
      * Acknowledge Organization Activity Event
      *
-     * Acknowledge Organization Activity Event. This POST operation is exposed from the activity router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Acknowledge Organization Activity Event. This POST operation is exposed from the activity router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public acknowledgeOrganizationActivityEvent<ThrowOnError extends boolean = false>(options: Options<ActivityAcknowledgeOrganizationActivityEventData, ThrowOnError>) {
         return (options.client ?? this.client).post<ActivityAcknowledgeOrganizationActivityEventResponses, ActivityAcknowledgeOrganizationActivityEventErrors, ThrowOnError>({
@@ -174,7 +174,7 @@ export class Activity extends HeyApiClient {
     /**
      * Create Alert Destination
      *
-     * Create Alert Destination. This POST operation is exposed from the activity router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Create Alert Destination. This POST operation is exposed from the activity router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public createAlertDestination<ThrowOnError extends boolean = false>(options: Options<ActivityCreateAlertDestinationData, ThrowOnError>) {
         return (options.client ?? this.client).post<ActivityCreateAlertDestinationResponses, ActivityCreateAlertDestinationErrors, ThrowOnError>({
@@ -195,7 +195,7 @@ export class Activity extends HeyApiClient {
     /**
      * Create Alert Rule
      *
-     * Create Alert Rule. This POST operation is exposed from the activity router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Create Alert Rule. This POST operation is exposed from the activity router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public createAlertRule<ThrowOnError extends boolean = false>(options: Options<ActivityCreateAlertRuleData, ThrowOnError>) {
         return (options.client ?? this.client).post<ActivityCreateAlertRuleResponses, ActivityCreateAlertRuleErrors, ThrowOnError>({
@@ -216,7 +216,7 @@ export class Activity extends HeyApiClient {
     /**
      * Delete Alert Destination
      *
-     * Delete Alert Destination. This POST operation is exposed from the activity router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Delete Alert Destination. This POST operation is exposed from the activity router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public deleteAlertDestination<ThrowOnError extends boolean = false>(options: Options<ActivityDeleteAlertDestinationData, ThrowOnError>) {
         return (options.client ?? this.client).post<ActivityDeleteAlertDestinationResponses, ActivityDeleteAlertDestinationErrors, ThrowOnError>({
@@ -237,7 +237,7 @@ export class Activity extends HeyApiClient {
     /**
      * Delete Alert Rule
      *
-     * Delete Alert Rule. This POST operation is exposed from the activity router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Delete Alert Rule. This POST operation is exposed from the activity router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public deleteAlertRule<ThrowOnError extends boolean = false>(options: Options<ActivityDeleteAlertRuleData, ThrowOnError>) {
         return (options.client ?? this.client).post<ActivityDeleteAlertRuleResponses, ActivityDeleteAlertRuleErrors, ThrowOnError>({
@@ -258,7 +258,7 @@ export class Activity extends HeyApiClient {
     /**
      * List Alert Deliveries
      *
-     * List Alert Deliveries. This GET operation is exposed from the activity router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * List Alert Deliveries. This GET operation is exposed from the activity router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public listAlertDeliveries<ThrowOnError extends boolean = false>(options: Options<ActivityListAlertDeliveriesData, ThrowOnError>) {
         return (options.client ?? this.client).get<ActivityListAlertDeliveriesResponses, ActivityListAlertDeliveriesErrors, ThrowOnError>({
@@ -275,7 +275,7 @@ export class Activity extends HeyApiClient {
     /**
      * List Alert Destinations
      *
-     * List Alert Destinations. This GET operation is exposed from the activity router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * List Alert Destinations. This GET operation is exposed from the activity router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public listAlertDestinations<ThrowOnError extends boolean = false>(options: Options<ActivityListAlertDestinationsData, ThrowOnError>) {
         return (options.client ?? this.client).get<ActivityListAlertDestinationsResponses, ActivityListAlertDestinationsErrors, ThrowOnError>({
@@ -292,7 +292,7 @@ export class Activity extends HeyApiClient {
     /**
      * List Alert Rules
      *
-     * List Alert Rules. This GET operation is exposed from the activity router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * List Alert Rules. This GET operation is exposed from the activity router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public listAlertRules<ThrowOnError extends boolean = false>(options: Options<ActivityListAlertRulesData, ThrowOnError>) {
         return (options.client ?? this.client).get<ActivityListAlertRulesResponses, ActivityListAlertRulesErrors, ThrowOnError>({
@@ -309,7 +309,7 @@ export class Activity extends HeyApiClient {
     /**
      * List Organization Activity
      *
-     * List Organization Activity. This GET operation is exposed from the activity router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * List Organization Activity. This GET operation is exposed from the activity router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public listOrganizationActivity<ThrowOnError extends boolean = false>(options: Options<ActivityListOrganizationActivityData, ThrowOnError>) {
         return (options.client ?? this.client).get<ActivityListOrganizationActivityResponses, ActivityListOrganizationActivityErrors, ThrowOnError>({
@@ -326,7 +326,7 @@ export class Activity extends HeyApiClient {
     /**
      * Record Database Audit
      *
-     * Record Database Audit. This POST operation is exposed from the activity router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Record Database Audit. This POST operation is exposed from the activity router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public recordDatabaseAudit<ThrowOnError extends boolean = false>(options: Options<ActivityRecordDatabaseAuditData, ThrowOnError>) {
         return (options.client ?? this.client).post<ActivityRecordDatabaseAuditResponses, ActivityRecordDatabaseAuditErrors, ThrowOnError>({
@@ -347,7 +347,7 @@ export class Activity extends HeyApiClient {
     /**
      * Record Player Admin Audit
      *
-     * Record Player Admin Audit. This POST operation is exposed from the activity router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Record Player Admin Audit. This POST operation is exposed from the activity router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public recordPlayerAdminAudit<ThrowOnError extends boolean = false>(options: Options<ActivityRecordPlayerAdminAuditData, ThrowOnError>) {
         return (options.client ?? this.client).post<ActivityRecordPlayerAdminAuditResponses, ActivityRecordPlayerAdminAuditErrors, ThrowOnError>({
@@ -368,7 +368,7 @@ export class Activity extends HeyApiClient {
     /**
      * Record Server Rpc Activity
      *
-     * Record Server Rpc Activity. This POST operation is exposed from the activity router on EnderDash's tRPC HTTP API surface. This operation is part of the public tRPC HTTP surface and does not require a signed-in session.
+     * Record Server Rpc Activity. This POST operation is exposed from the activity router on Enderdash's tRPC HTTP API surface. This operation is part of the public tRPC HTTP surface and does not require a signed-in session.
      */
     public recordServerRpcActivity<ThrowOnError extends boolean = false>(options: Options<ActivityRecordServerRpcActivityData, ThrowOnError>) {
         return (options.client ?? this.client).post<ActivityRecordServerRpcActivityResponses, ActivityRecordServerRpcActivityErrors, ThrowOnError>({
@@ -384,7 +384,7 @@ export class Activity extends HeyApiClient {
     /**
      * Update Alert Destination
      *
-     * Update Alert Destination. This POST operation is exposed from the activity router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Update Alert Destination. This POST operation is exposed from the activity router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public updateAlertDestination<ThrowOnError extends boolean = false>(options: Options<ActivityUpdateAlertDestinationData, ThrowOnError>) {
         return (options.client ?? this.client).post<ActivityUpdateAlertDestinationResponses, ActivityUpdateAlertDestinationErrors, ThrowOnError>({
@@ -405,7 +405,7 @@ export class Activity extends HeyApiClient {
     /**
      * Update Alert Rule
      *
-     * Update Alert Rule. This POST operation is exposed from the activity router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Update Alert Rule. This POST operation is exposed from the activity router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public updateAlertRule<ThrowOnError extends boolean = false>(options: Options<ActivityUpdateAlertRuleData, ThrowOnError>) {
         return (options.client ?? this.client).post<ActivityUpdateAlertRuleResponses, ActivityUpdateAlertRuleErrors, ThrowOnError>({
@@ -428,7 +428,7 @@ export class Auth extends HeyApiClient {
     /**
      * Create Organization Logo Upload Url
      *
-     * Create Organization Logo Upload Url. This POST operation is exposed from the auth router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Create Organization Logo Upload Url. This POST operation is exposed from the auth router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public createOrganizationLogoUploadUrl<ThrowOnError extends boolean = false>(options: Options<AuthCreateOrganizationLogoUploadUrlData, ThrowOnError>) {
         return (options.client ?? this.client).post<AuthCreateOrganizationLogoUploadUrlResponses, AuthCreateOrganizationLogoUploadUrlErrors, ThrowOnError>({
@@ -451,7 +451,7 @@ export class Ocelot extends HeyApiClient {
     /**
      * Authorize Tool Action
      *
-     * Authorize Tool Action. This POST operation is exposed from the ocelot router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Authorize Tool Action. This POST operation is exposed from the ocelot router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public authorizeToolAction<ThrowOnError extends boolean = false>(options: Options<OcelotAuthorizeToolActionData, ThrowOnError>) {
         return (options.client ?? this.client).post<OcelotAuthorizeToolActionResponses, OcelotAuthorizeToolActionErrors, ThrowOnError>({
@@ -472,7 +472,7 @@ export class Ocelot extends HeyApiClient {
     /**
      * Complete Tool Action
      *
-     * Complete Tool Action. This POST operation is exposed from the ocelot router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Complete Tool Action. This POST operation is exposed from the ocelot router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public completeToolAction<ThrowOnError extends boolean = false>(options: Options<OcelotCompleteToolActionData, ThrowOnError>) {
         return (options.client ?? this.client).post<OcelotCompleteToolActionResponses, OcelotCompleteToolActionErrors, ThrowOnError>({
@@ -493,7 +493,7 @@ export class Ocelot extends HeyApiClient {
     /**
      * Delete Note
      *
-     * Delete Note. This POST operation is exposed from the ocelot router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Delete Note. This POST operation is exposed from the ocelot router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public deleteNote<ThrowOnError extends boolean = false>(options: Options<OcelotDeleteNoteData, ThrowOnError>) {
         return (options.client ?? this.client).post<OcelotDeleteNoteResponses, OcelotDeleteNoteErrors, ThrowOnError>({
@@ -514,7 +514,7 @@ export class Ocelot extends HeyApiClient {
     /**
      * Delete Ocelot Conversation
      *
-     * Delete Ocelot Conversation. This POST operation is exposed from the ocelot router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Delete Ocelot Conversation. This POST operation is exposed from the ocelot router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public deleteOcelotConversation<ThrowOnError extends boolean = false>(options: Options<OcelotDeleteOcelotConversationData, ThrowOnError>) {
         return (options.client ?? this.client).post<OcelotDeleteOcelotConversationResponses, OcelotDeleteOcelotConversationErrors, ThrowOnError>({
@@ -535,7 +535,7 @@ export class Ocelot extends HeyApiClient {
     /**
      * Get Ocelot Config
      *
-     * Get Ocelot Config. This GET operation is exposed from the ocelot router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Get Ocelot Config. This GET operation is exposed from the ocelot router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public getOcelotConfig<ThrowOnError extends boolean = false>(options: Options<OcelotGetOcelotConfigData, ThrowOnError>) {
         return (options.client ?? this.client).get<OcelotGetOcelotConfigResponses, OcelotGetOcelotConfigErrors, ThrowOnError>({
@@ -552,7 +552,7 @@ export class Ocelot extends HeyApiClient {
     /**
      * Get Ocelot Conversation
      *
-     * Get Ocelot Conversation. This GET operation is exposed from the ocelot router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Get Ocelot Conversation. This GET operation is exposed from the ocelot router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public getOcelotConversation<ThrowOnError extends boolean = false>(options: Options<OcelotGetOcelotConversationData, ThrowOnError>) {
         return (options.client ?? this.client).get<OcelotGetOcelotConversationResponses, OcelotGetOcelotConversationErrors, ThrowOnError>({
@@ -569,7 +569,7 @@ export class Ocelot extends HeyApiClient {
     /**
      * Get Ocelot Usage Stats
      *
-     * Get Ocelot Usage Stats. This GET operation is exposed from the ocelot router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Get Ocelot Usage Stats. This GET operation is exposed from the ocelot router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public getOcelotUsageStats<ThrowOnError extends boolean = false>(options: Options<OcelotGetOcelotUsageStatsData, ThrowOnError>) {
         return (options.client ?? this.client).get<OcelotGetOcelotUsageStatsResponses, OcelotGetOcelotUsageStatsErrors, ThrowOnError>({
@@ -586,7 +586,7 @@ export class Ocelot extends HeyApiClient {
     /**
      * List Notes
      *
-     * List Notes. This GET operation is exposed from the ocelot router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * List Notes. This GET operation is exposed from the ocelot router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public listNotes<ThrowOnError extends boolean = false>(options: Options<OcelotListNotesData, ThrowOnError>) {
         return (options.client ?? this.client).get<OcelotListNotesResponses, OcelotListNotesErrors, ThrowOnError>({
@@ -603,7 +603,7 @@ export class Ocelot extends HeyApiClient {
     /**
      * List Ocelot Conversations
      *
-     * List Ocelot Conversations. This GET operation is exposed from the ocelot router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * List Ocelot Conversations. This GET operation is exposed from the ocelot router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public listOcelotConversations<ThrowOnError extends boolean = false>(options: Options<OcelotListOcelotConversationsData, ThrowOnError>) {
         return (options.client ?? this.client).get<OcelotListOcelotConversationsResponses, OcelotListOcelotConversationsErrors, ThrowOnError>({
@@ -620,7 +620,7 @@ export class Ocelot extends HeyApiClient {
     /**
      * Preflight Tool Action
      *
-     * Preflight Tool Action. This POST operation is exposed from the ocelot router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Preflight Tool Action. This POST operation is exposed from the ocelot router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public preflightToolAction<ThrowOnError extends boolean = false>(options: Options<OcelotPreflightToolActionData, ThrowOnError>) {
         return (options.client ?? this.client).post<OcelotPreflightToolActionResponses, OcelotPreflightToolActionErrors, ThrowOnError>({
@@ -641,7 +641,7 @@ export class Ocelot extends HeyApiClient {
     /**
      * Release Tool Action
      *
-     * Release Tool Action. This POST operation is exposed from the ocelot router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Release Tool Action. This POST operation is exposed from the ocelot router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public releaseToolAction<ThrowOnError extends boolean = false>(options: Options<OcelotReleaseToolActionData, ThrowOnError>) {
         return (options.client ?? this.client).post<OcelotReleaseToolActionResponses, OcelotReleaseToolActionErrors, ThrowOnError>({
@@ -662,7 +662,7 @@ export class Ocelot extends HeyApiClient {
     /**
      * Save Note
      *
-     * Save Note. This POST operation is exposed from the ocelot router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Save Note. This POST operation is exposed from the ocelot router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public saveNote<ThrowOnError extends boolean = false>(options: Options<OcelotSaveNoteData, ThrowOnError>) {
         return (options.client ?? this.client).post<OcelotSaveNoteResponses, OcelotSaveNoteErrors, ThrowOnError>({
@@ -683,7 +683,7 @@ export class Ocelot extends HeyApiClient {
     /**
      * Update Note
      *
-     * Update Note. This POST operation is exposed from the ocelot router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Update Note. This POST operation is exposed from the ocelot router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public updateNote<ThrowOnError extends boolean = false>(options: Options<OcelotUpdateNoteData, ThrowOnError>) {
         return (options.client ?? this.client).post<OcelotUpdateNoteResponses, OcelotUpdateNoteErrors, ThrowOnError>({
@@ -704,7 +704,7 @@ export class Ocelot extends HeyApiClient {
     /**
      * Update Ocelot Config
      *
-     * Update Ocelot Config. This POST operation is exposed from the ocelot router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Update Ocelot Config. This POST operation is exposed from the ocelot router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public updateOcelotConfig<ThrowOnError extends boolean = false>(options: Options<OcelotUpdateOcelotConfigData, ThrowOnError>) {
         return (options.client ?? this.client).post<OcelotUpdateOcelotConfigResponses, OcelotUpdateOcelotConfigErrors, ThrowOnError>({
@@ -727,7 +727,7 @@ export class Organizations extends HeyApiClient {
     /**
      * Approve Access Request
      *
-     * Approve Access Request. This POST operation is exposed from the organizations router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Approve Access Request. This POST operation is exposed from the organizations router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public approveAccessRequest<ThrowOnError extends boolean = false>(options: Options<OrganizationsApproveAccessRequestData, ThrowOnError>) {
         return (options.client ?? this.client).post<OrganizationsApproveAccessRequestResponses, OrganizationsApproveAccessRequestErrors, ThrowOnError>({
@@ -748,7 +748,7 @@ export class Organizations extends HeyApiClient {
     /**
      * Create Access Grant
      *
-     * Create Access Grant. This POST operation is exposed from the organizations router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Create Access Grant. This POST operation is exposed from the organizations router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public createAccessGrant<ThrowOnError extends boolean = false>(options: Options<OrganizationsCreateAccessGrantData, ThrowOnError>) {
         return (options.client ?? this.client).post<OrganizationsCreateAccessGrantResponses, OrganizationsCreateAccessGrantErrors, ThrowOnError>({
@@ -769,7 +769,7 @@ export class Organizations extends HeyApiClient {
     /**
      * Create Access Request
      *
-     * Create Access Request. This POST operation is exposed from the organizations router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Create Access Request. This POST operation is exposed from the organizations router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public createAccessRequest<ThrowOnError extends boolean = false>(options: Options<OrganizationsCreateAccessRequestData, ThrowOnError>) {
         return (options.client ?? this.client).post<OrganizationsCreateAccessRequestResponses, OrganizationsCreateAccessRequestErrors, ThrowOnError>({
@@ -790,7 +790,7 @@ export class Organizations extends HeyApiClient {
     /**
      * Deny Access Request
      *
-     * Deny Access Request. This POST operation is exposed from the organizations router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Deny Access Request. This POST operation is exposed from the organizations router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public denyAccessRequest<ThrowOnError extends boolean = false>(options: Options<OrganizationsDenyAccessRequestData, ThrowOnError>) {
         return (options.client ?? this.client).post<OrganizationsDenyAccessRequestResponses, OrganizationsDenyAccessRequestErrors, ThrowOnError>({
@@ -811,7 +811,7 @@ export class Organizations extends HeyApiClient {
     /**
      * Get Current Organization Member Info
      *
-     * Get Current Organization Member Info. This GET operation is exposed from the organizations router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Get Current Organization Member Info. This GET operation is exposed from the organizations router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public getCurrentOrganizationMemberInfo<ThrowOnError extends boolean = false>(options: Options<OrganizationsGetCurrentOrganizationMemberInfoData, ThrowOnError>) {
         return (options.client ?? this.client).get<OrganizationsGetCurrentOrganizationMemberInfoResponses, OrganizationsGetCurrentOrganizationMemberInfoErrors, ThrowOnError>({
@@ -828,7 +828,7 @@ export class Organizations extends HeyApiClient {
     /**
      * Get Organization Route Access
      *
-     * Get Organization Route Access. This GET operation is exposed from the organizations router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Get Organization Route Access. This GET operation is exposed from the organizations router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public getOrganizationRouteAccess<ThrowOnError extends boolean = false>(options: Options<OrganizationsGetOrganizationRouteAccessData, ThrowOnError>) {
         return (options.client ?? this.client).get<OrganizationsGetOrganizationRouteAccessResponses, OrganizationsGetOrganizationRouteAccessErrors, ThrowOnError>({
@@ -845,7 +845,7 @@ export class Organizations extends HeyApiClient {
     /**
      * List Access Grants
      *
-     * List Access Grants. This GET operation is exposed from the organizations router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * List Access Grants. This GET operation is exposed from the organizations router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public listAccessGrants<ThrowOnError extends boolean = false>(options: Options<OrganizationsListAccessGrantsData, ThrowOnError>) {
         return (options.client ?? this.client).get<OrganizationsListAccessGrantsResponses, OrganizationsListAccessGrantsErrors, ThrowOnError>({
@@ -862,7 +862,7 @@ export class Organizations extends HeyApiClient {
     /**
      * List Access Requests
      *
-     * List Access Requests. This GET operation is exposed from the organizations router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * List Access Requests. This GET operation is exposed from the organizations router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public listAccessRequests<ThrowOnError extends boolean = false>(options: Options<OrganizationsListAccessRequestsData, ThrowOnError>) {
         return (options.client ?? this.client).get<OrganizationsListAccessRequestsResponses, OrganizationsListAccessRequestsErrors, ThrowOnError>({
@@ -879,7 +879,7 @@ export class Organizations extends HeyApiClient {
     /**
      * List Servers For Access Control
      *
-     * List Servers For Access Control. This GET operation is exposed from the organizations router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * List Servers For Access Control. This GET operation is exposed from the organizations router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public listServersForAccessControl<ThrowOnError extends boolean = false>(options: Options<OrganizationsListServersForAccessControlData, ThrowOnError>) {
         return (options.client ?? this.client).get<OrganizationsListServersForAccessControlResponses, OrganizationsListServersForAccessControlErrors, ThrowOnError>({
@@ -896,7 +896,7 @@ export class Organizations extends HeyApiClient {
     /**
      * Revoke Access Grant
      *
-     * Revoke Access Grant. This POST operation is exposed from the organizations router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Revoke Access Grant. This POST operation is exposed from the organizations router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public revokeAccessGrant<ThrowOnError extends boolean = false>(options: Options<OrganizationsRevokeAccessGrantData, ThrowOnError>) {
         return (options.client ?? this.client).post<OrganizationsRevokeAccessGrantResponses, OrganizationsRevokeAccessGrantErrors, ThrowOnError>({
@@ -919,7 +919,7 @@ export class Servers extends HeyApiClient {
     /**
      * Create OAuth Client
      *
-     * Create OAuth Client. This POST operation is exposed from the servers router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Create OAuth Client. This POST operation is exposed from the servers router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public createOAuthClient<ThrowOnError extends boolean = false>(options: Options<ServersCreateOAuthClientData, ThrowOnError>) {
         return (options.client ?? this.client).post<ServersCreateOAuthClientResponses, ServersCreateOAuthClientErrors, ThrowOnError>({
@@ -940,7 +940,7 @@ export class Servers extends HeyApiClient {
     /**
      * Create File Access Request
      *
-     * Create File Access Request. This POST operation is exposed from the servers router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Create File Access Request. This POST operation is exposed from the servers router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public createFileAccessRequest<ThrowOnError extends boolean = false>(options: Options<ServersCreateFileAccessRequestData, ThrowOnError>) {
         return (options.client ?? this.client).post<ServersCreateFileAccessRequestResponses, ServersCreateFileAccessRequestErrors, ThrowOnError>({
@@ -961,7 +961,7 @@ export class Servers extends HeyApiClient {
     /**
      * Create Server
      *
-     * Create Server. This POST operation is exposed from the servers router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Create Server. This POST operation is exposed from the servers router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public createServer<ThrowOnError extends boolean = false>(options: Options<ServersCreateServerData, ThrowOnError>) {
         return (options.client ?? this.client).post<ServersCreateServerResponses, ServersCreateServerErrors, ThrowOnError>({
@@ -982,7 +982,7 @@ export class Servers extends HeyApiClient {
     /**
      * Delete Server
      *
-     * Delete Server. This POST operation is exposed from the servers router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Delete Server. This POST operation is exposed from the servers router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public deleteServer<ThrowOnError extends boolean = false>(options: Options<ServersDeleteServerData, ThrowOnError>) {
         return (options.client ?? this.client).post<ServersDeleteServerResponses, ServersDeleteServerErrors, ThrowOnError>({
@@ -1003,7 +1003,7 @@ export class Servers extends HeyApiClient {
     /**
      * Execute Console Command
      *
-     * Execute Console Command. This POST operation is exposed from the servers router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Execute Console Command. This POST operation is exposed from the servers router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public executeConsoleCommand<ThrowOnError extends boolean = false>(options: Options<ServersExecuteConsoleCommandData, ThrowOnError>) {
         return (options.client ?? this.client).post<ServersExecuteConsoleCommandResponses, ServersExecuteConsoleCommandErrors, ThrowOnError>({
@@ -1024,7 +1024,7 @@ export class Servers extends HeyApiClient {
     /**
      * Get Luck Perms Snapshot
      *
-     * Get Luck Perms Snapshot. This POST operation is exposed from the servers router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Get Luck Perms Snapshot. This POST operation is exposed from the servers router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public getLuckPermsSnapshot<ThrowOnError extends boolean = false>(options: Options<ServersGetLuckPermsSnapshotData, ThrowOnError>) {
         return (options.client ?? this.client).post<ServersGetLuckPermsSnapshotResponses, ServersGetLuckPermsSnapshotErrors, ThrowOnError>({
@@ -1045,7 +1045,7 @@ export class Servers extends HeyApiClient {
     /**
      * Get Server For Organization
      *
-     * Get Server For Organization. This GET operation is exposed from the servers router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Get Server For Organization. This GET operation is exposed from the servers router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public getServerForOrganization<ThrowOnError extends boolean = false>(options: Options<ServersGetServerForOrganizationData, ThrowOnError>) {
         return (options.client ?? this.client).get<ServersGetServerForOrganizationResponses, ServersGetServerForOrganizationErrors, ThrowOnError>({
@@ -1062,7 +1062,7 @@ export class Servers extends HeyApiClient {
     /**
      * Get Server Route Access
      *
-     * Get Server Route Access. This GET operation is exposed from the servers router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Get Server Route Access. This GET operation is exposed from the servers router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public getServerRouteAccess<ThrowOnError extends boolean = false>(options: Options<ServersGetServerRouteAccessData, ThrowOnError>) {
         return (options.client ?? this.client).get<ServersGetServerRouteAccessResponses, ServersGetServerRouteAccessErrors, ThrowOnError>({
@@ -1079,7 +1079,7 @@ export class Servers extends HeyApiClient {
     /**
      * Get Shared Network Workspace
      *
-     * Get Shared Network Workspace. This GET operation is exposed from the servers router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Get Shared Network Workspace. This GET operation is exposed from the servers router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public getSharedNetworkWorkspace<ThrowOnError extends boolean = false>(options: Options<ServersGetSharedNetworkWorkspaceData, ThrowOnError>) {
         return (options.client ?? this.client).get<ServersGetSharedNetworkWorkspaceResponses, ServersGetSharedNetworkWorkspaceErrors, ThrowOnError>({
@@ -1096,7 +1096,7 @@ export class Servers extends HeyApiClient {
     /**
      * Get Shared Server Workspace
      *
-     * Get Shared Server Workspace. This GET operation is exposed from the servers router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Get Shared Server Workspace. This GET operation is exposed from the servers router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public getSharedServerWorkspace<ThrowOnError extends boolean = false>(options: Options<ServersGetSharedServerWorkspaceData, ThrowOnError>) {
         return (options.client ?? this.client).get<ServersGetSharedServerWorkspaceResponses, ServersGetSharedServerWorkspaceErrors, ThrowOnError>({
@@ -1113,7 +1113,7 @@ export class Servers extends HeyApiClient {
     /**
      * List OAuth Clients
      *
-     * List OAuth Clients. This GET operation is exposed from the servers router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * List OAuth Clients. This GET operation is exposed from the servers router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public listOAuthClients<ThrowOnError extends boolean = false>(options: Options<ServersListOAuthClientsData, ThrowOnError>) {
         return (options.client ?? this.client).get<ServersListOAuthClientsResponses, ServersListOAuthClientsErrors, ThrowOnError>({
@@ -1130,7 +1130,7 @@ export class Servers extends HeyApiClient {
     /**
      * List Network Servers
      *
-     * List Network Servers. This GET operation is exposed from the servers router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * List Network Servers. This GET operation is exposed from the servers router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public listNetworkServers<ThrowOnError extends boolean = false>(options: Options<ServersListNetworkServersData, ThrowOnError>) {
         return (options.client ?? this.client).get<ServersListNetworkServersResponses, ServersListNetworkServersErrors, ThrowOnError>({
@@ -1147,7 +1147,7 @@ export class Servers extends HeyApiClient {
     /**
      * List Servers
      *
-     * List Servers. This GET operation is exposed from the servers router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * List Servers. This GET operation is exposed from the servers router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public listServers<ThrowOnError extends boolean = false>(options: Options<ServersListServersData, ThrowOnError>) {
         return (options.client ?? this.client).get<ServersListServersResponses, ServersListServersErrors, ThrowOnError>({
@@ -1164,7 +1164,7 @@ export class Servers extends HeyApiClient {
     /**
      * Regenerate Agent Key
      *
-     * Regenerate Agent Key. This POST operation is exposed from the servers router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Regenerate Agent Key. This POST operation is exposed from the servers router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public regenerateAgentKey<ThrowOnError extends boolean = false>(options: Options<ServersRegenerateAgentKeyData, ThrowOnError>) {
         return (options.client ?? this.client).post<ServersRegenerateAgentKeyResponses, ServersRegenerateAgentKeyErrors, ThrowOnError>({
@@ -1185,7 +1185,7 @@ export class Servers extends HeyApiClient {
     /**
      * Resolve Luck Perms Username
      *
-     * Resolve Luck Perms Username. This POST operation is exposed from the servers router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Resolve Luck Perms Username. This POST operation is exposed from the servers router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public resolveLuckPermsUsername<ThrowOnError extends boolean = false>(options: Options<ServersResolveLuckPermsUsernameData, ThrowOnError>) {
         return (options.client ?? this.client).post<ServersResolveLuckPermsUsernameResponses, ServersResolveLuckPermsUsernameErrors, ThrowOnError>({
@@ -1206,7 +1206,7 @@ export class Servers extends HeyApiClient {
     /**
      * Rotate OAuth Client Secret
      *
-     * Rotate OAuth Client Secret. This POST operation is exposed from the servers router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Rotate OAuth Client Secret. This POST operation is exposed from the servers router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public rotateOAuthClientSecret<ThrowOnError extends boolean = false>(options: Options<ServersRotateOAuthClientSecretData, ThrowOnError>) {
         return (options.client ?? this.client).post<ServersRotateOAuthClientSecretResponses, ServersRotateOAuthClientSecretErrors, ThrowOnError>({
@@ -1227,7 +1227,7 @@ export class Servers extends HeyApiClient {
     /**
      * Save Shared Network Workspace
      *
-     * Save Shared Network Workspace. This POST operation is exposed from the servers router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Save Shared Network Workspace. This POST operation is exposed from the servers router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public saveSharedNetworkWorkspace<ThrowOnError extends boolean = false>(options: Options<ServersSaveSharedNetworkWorkspaceData, ThrowOnError>) {
         return (options.client ?? this.client).post<ServersSaveSharedNetworkWorkspaceResponses, ServersSaveSharedNetworkWorkspaceErrors, ThrowOnError>({
@@ -1248,7 +1248,7 @@ export class Servers extends HeyApiClient {
     /**
      * Save Shared Server Workspace
      *
-     * Save Shared Server Workspace. This POST operation is exposed from the servers router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Save Shared Server Workspace. This POST operation is exposed from the servers router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public saveSharedServerWorkspace<ThrowOnError extends boolean = false>(options: Options<ServersSaveSharedServerWorkspaceData, ThrowOnError>) {
         return (options.client ?? this.client).post<ServersSaveSharedServerWorkspaceResponses, ServersSaveSharedServerWorkspaceErrors, ThrowOnError>({
@@ -1269,7 +1269,7 @@ export class Servers extends HeyApiClient {
     /**
      * Update Server
      *
-     * Update Server. This POST operation is exposed from the servers router on EnderDash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
+     * Update Server. This POST operation is exposed from the servers router on Enderdash's tRPC HTTP API surface. Authentication is required with either a signed-in session cookie or a user API key.
      */
     public updateServer<ThrowOnError extends boolean = false>(options: Options<ServersUpdateServerData, ThrowOnError>) {
         return (options.client ?? this.client).post<ServersUpdateServerResponses, ServersUpdateServerErrors, ThrowOnError>({

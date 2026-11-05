@@ -1,5 +1,5 @@
 /**
- * Generated TypeScript client for the EnderDash HTTP API.
+ * Generated TypeScript client for the Enderdash HTTP API.
  *
  * @module
  */
@@ -18,16 +18,16 @@ export type { Client } from "./generated/client/index.js";
 export { Sdk } from "./generated/sdk.gen.js";
 export * from "./generated/types.gen.js";
 
-export interface EnderDashClientOptions {
+export interface EnderdashClientOptions {
   apiKey?: string;
   baseUrl?: string;
   fetch?: typeof fetch;
   headers?: HeadersInit;
 }
 
-export function configureEnderDashClient(
+export function configureEnderdashClient(
   targetClient: Client,
-  options: EnderDashClientOptions = {},
+  options: EnderdashClientOptions = {},
 ) {
   const headers = new Headers(options.headers);
   if (options.apiKey) {
@@ -44,8 +44,8 @@ export function configureEnderDashClient(
   return targetClient;
 }
 
-export function createEnderDashHeyApiClient(
-  options: EnderDashClientOptions = {},
+export function createEnderdashHeyApiClient(
+  options: EnderdashClientOptions = {},
 ) {
   const targetClient = createHeyApiClient(
     createConfig({
@@ -53,9 +53,21 @@ export function createEnderDashHeyApiClient(
     }),
   );
 
-  return configureEnderDashClient(targetClient, options);
+  return configureEnderdashClient(targetClient, options);
 }
 
-export function createEnderDashClient(options: EnderDashClientOptions = {}) {
-  return new Sdk({ client: createEnderDashHeyApiClient(options) });
+export function createEnderdashClient(options: EnderdashClientOptions = {}) {
+  return new Sdk({ client: createEnderdashHeyApiClient(options) });
 }
+
+/** @deprecated Use EnderdashClientOptions. */
+export type EnderDashClientOptions = EnderdashClientOptions;
+
+/** @deprecated Use configureEnderdashClient. */
+export const configureEnderDashClient = configureEnderdashClient;
+
+/** @deprecated Use createEnderdashHeyApiClient. */
+export const createEnderDashHeyApiClient = createEnderdashHeyApiClient;
+
+/** @deprecated Use createEnderdashClient. */
+export const createEnderDashClient = createEnderdashClient;

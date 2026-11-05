@@ -1,7 +1,7 @@
 {
   "name": "@enderdash/client",
-  "version": "0.1.4",
-  "description": "Generated TypeScript client for the EnderDash HTTP API.",
+  "version": "0.1.5",
+  "description": "Generated TypeScript client for the Enderdash HTTP API.",
   "keywords": [
     "enderdash",
     "minecraft",
@@ -15,7 +15,7 @@
   "type": "module",
   "license": "MIT",
   "author": {
-    "name": "EnderDash",
+    "name": "Enderdash",
     "url": "https://enderdash.com"
   },
   "packageManager": "bun@1.4.4",
@@ -46,7 +46,8 @@
     "check": "tsc --noEmit",
     "generate": "bun scripts/generate.ts",
     "pack:check": "bun pm pack --dry-run",
-    "prepack": "bun run build"
+    "prepack": "bun run build",
+    "test": "bun test tests"
   },
   "dependencies": {
     "@hey-api/client-fetch": "^0.13.1",

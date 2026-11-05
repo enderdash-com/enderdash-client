@@ -494,7 +494,7 @@ export type AdminCreateOAuthProviderClientErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -557,7 +557,7 @@ export type AdminDeleteOAuthProviderClientErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -614,7 +614,7 @@ export type AdminListOAuthProviderClientsErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -695,7 +695,7 @@ export type AdminRotateOAuthProviderClientSecretErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -766,7 +766,7 @@ export type AdminUpdateOAuthProviderClientErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -830,7 +830,7 @@ export type ActivityAcknowledgeOrganizationActivityEventErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -898,7 +898,7 @@ export type ActivityCreateAlertDestinationErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -978,7 +978,7 @@ export type ActivityCreateAlertRuleErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -1055,7 +1055,7 @@ export type ActivityDeleteAlertDestinationErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -1119,7 +1119,7 @@ export type ActivityDeleteAlertRuleErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -1185,7 +1185,7 @@ export type ActivityListAlertDeliveriesErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -1263,7 +1263,7 @@ export type ActivityListAlertDestinationsErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -1336,7 +1336,7 @@ export type ActivityListAlertRulesErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -1416,7 +1416,7 @@ export type ActivityListOrganizationActivityErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -1484,7 +1484,7 @@ export type ActivityRecordDatabaseAuditErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -1554,7 +1554,7 @@ export type ActivityRecordPlayerAdminAuditErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -1612,7 +1612,7 @@ export type ActivityRecordServerRpcActivityErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -1684,7 +1684,7 @@ export type ActivityUpdateAlertDestinationErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -1765,7 +1765,7 @@ export type ActivityUpdateAlertRuleErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -1842,7 +1842,7 @@ export type AuthCreateOrganizationLogoUploadUrlErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -1907,7 +1907,7 @@ export type OcelotAuthorizeToolActionErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -1969,7 +1969,7 @@ export type OcelotCompleteToolActionErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -2031,7 +2031,7 @@ export type OcelotDeleteNoteErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -2095,7 +2095,7 @@ export type OcelotDeleteOcelotConversationErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -2160,7 +2160,7 @@ export type OcelotGetOcelotConfigErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -2224,7 +2224,7 @@ export type OcelotGetOcelotConversationErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -2295,7 +2295,7 @@ export type OcelotGetOcelotUsageStatsErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -2369,7 +2369,7 @@ export type OcelotListNotesErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -2449,7 +2449,7 @@ export type OcelotListOcelotConversationsErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -2515,7 +2515,7 @@ export type OcelotPreflightToolActionErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -2577,7 +2577,7 @@ export type OcelotReleaseToolActionErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -2641,7 +2641,7 @@ export type OcelotSaveNoteErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -2709,7 +2709,7 @@ export type OcelotUpdateNoteErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -2794,7 +2794,7 @@ export type OcelotUpdateOcelotConfigErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -2859,7 +2859,7 @@ export type OrganizationsApproveAccessRequestErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -3001,7 +3001,7 @@ export type OrganizationsCreateAccessGrantErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -3142,7 +3142,7 @@ export type OrganizationsCreateAccessRequestErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -3560,7 +3560,7 @@ export type OrganizationsDenyAccessRequestErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -3625,7 +3625,7 @@ export type OrganizationsGetCurrentOrganizationMemberInfoErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -3687,7 +3687,7 @@ export type OrganizationsGetOrganizationRouteAccessErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -3752,7 +3752,7 @@ export type OrganizationsListAccessGrantsErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -4170,7 +4170,7 @@ export type OrganizationsListAccessRequestsErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -4588,7 +4588,7 @@ export type OrganizationsListServersForAccessControlErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -4653,7 +4653,7 @@ export type OrganizationsRevokeAccessGrantErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -4719,7 +4719,7 @@ export type ServersCreateOAuthClientErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -4798,7 +4798,7 @@ export type ServersCreateFileAccessRequestErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -5215,7 +5215,7 @@ export type ServersCreateServerErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -5280,7 +5280,7 @@ export type ServersDeleteServerErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -5345,7 +5345,7 @@ export type ServersExecuteConsoleCommandErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -5416,7 +5416,7 @@ export type ServersGetLuckPermsSnapshotErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -5537,7 +5537,7 @@ export type ServersGetServerForOrganizationErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -5601,7 +5601,7 @@ export type ServersGetServerRouteAccessErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -5670,7 +5670,7 @@ export type ServersGetSharedNetworkWorkspaceErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -5747,7 +5747,7 @@ export type ServersGetSharedServerWorkspaceErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -5825,7 +5825,7 @@ export type ServersListOAuthClientsErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -5895,7 +5895,7 @@ export type ServersListNetworkServersErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -5971,7 +5971,7 @@ export type ServersListServersErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -6046,7 +6046,7 @@ export type ServersRegenerateAgentKeyErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -6111,7 +6111,7 @@ export type ServersResolveLuckPermsUsernameErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -6186,7 +6186,7 @@ export type ServersRotateOAuthClientSecretErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -6267,7 +6267,7 @@ export type ServersSaveSharedNetworkWorkspaceErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -6346,7 +6346,7 @@ export type ServersSaveSharedServerWorkspaceErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**
@@ -6411,7 +6411,7 @@ export type ServersUpdateServerErrors = {
      */
     409: unknown;
     /**
-     * Rate limit exceeded. EnderDash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
+     * Rate limit exceeded. Enderdash currently enforces tRPC HTTP API rate limits per authenticated user or by client IP for anonymous access.
      */
     429: unknown;
     /**

@@ -1,8 +1,8 @@
-# EnderDash Client
+# Enderdash Client
 
-TypeScript client for the EnderDash HTTP API.
+TypeScript client for the Enderdash HTTP API.
 
-The client is generated from EnderDash's OpenAPI document and configured for the tRPC HTTP protocol. It uses `superjson`, matching the EnderDash API transformer.
+The client is generated from Enderdash's OpenAPI document and configured for the tRPC HTTP protocol. It uses `superjson`, matching the Enderdash API transformer.
 
 ## Install
 
@@ -13,9 +13,9 @@ bun add @enderdash/client
 ## Usage
 
 ```ts
-import { createEnderDashClient } from "@enderdash/client";
+import { createEnderdashClient } from "@enderdash/client";
 
-const enderdash = createEnderDashClient({
+const enderdash = createEnderdashClient({
   apiKey: process.env.ENDERDASH_API_KEY,
 });
 
@@ -28,10 +28,10 @@ const servers = await enderdash.servers.listServers({
 });
 ```
 
-Pass `baseUrl` when targeting a local or self-hosted EnderDash app:
+Pass `baseUrl` when targeting a local or self-hosted Enderdash app:
 
 ```ts
-const enderdash = createEnderDashClient({
+const enderdash = createEnderdashClient({
   apiKey: process.env.ENDERDASH_API_KEY,
   baseUrl: "https://app.enderdash.localhost:1355/api/trpc",
 });
@@ -82,3 +82,5 @@ Then publish by creating a GitHub release for the version in `package.json`.
 
 Read [the contribution guide](CONTRIBUTING.md) for development and review.
 Use [the support guide](SUPPORT.md) for questions and issue routing.
+
+The former `EnderDash` client exports remain available as deprecated aliases. Use the `Enderdash` exports in new integrations.
