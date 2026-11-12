@@ -1,0 +1,16 @@
+lefthook: bunx --no-install lefthook
+min_version: 2.2.2
+
+pre-commit:
+  commands:
+    whitespace:
+      run: git diff --cached --check
+
+pre-push:
+  commands:
+    types:
+      glob: "*.{ts,json}"
+      run: bun run check
+    tests:
+      glob: "*.{ts,json}"
+      run: bun run test
