@@ -5,6 +5,12 @@ pre-commit:
   commands:
     whitespace:
       run: git diff --cached --check
+    format:
+      run: bunx --no-install oxfmt --no-error-on-unmatched-pattern {staged_files}
+      stage_fixed: true
+    lint:
+      glob: "*.{js,mjs,cjs,ts,mts,cts}"
+      run: bunx --no-install oxlint --deny-warnings {staged_files}
 
 pre-push:
   commands:

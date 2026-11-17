@@ -37,6 +37,8 @@ bun run pack:check
 
 Use a reviewed OpenAPI document when regeneration is necessary. Set `ENDERDASH_OPENAPI_SPEC` to that local file, then run `bun run generate`. Do not regenerate from a changing production spec for an unrelated documentation fix. Do not edit generated client files manually. Explain any API compatibility changes and inspect the package contents before release.
 
+`bun run check` runs the type check, Oxlint, and the oxfmt format check. Run `bun run format` to format the code.
+
 Run the relevant checks before review. State the command and result in the pull request.
 If a check cannot run, explain the missing dependency or service. Do not claim it passed.
 Keep generated artifacts consistent with their source and review their diff.
@@ -66,4 +68,4 @@ Remove credentials and private data from examples, logs, and screenshots.
 
 `bun install` installs Lefthook for this checkout and preserves the existing preparation steps.
 Run `bun run pre-commit` to run the commit checks manually.
-The hooks use the existing project tools. Before pushing, they run the relevant project checks for changed files.
+Before each commit, the hooks format staged files with oxfmt and lint staged scripts with Oxlint. Before pushing, they run the relevant project checks for changed files.
