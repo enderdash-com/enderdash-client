@@ -5,7 +5,7 @@
  */
 import { configureTRPCHeyApiClient } from "@trpc/openapi/heyapi";
 import superjson from "superjson";
-import { client } from "./generated/client.gen.js";
+
 import {
   createClient as createHeyApiClient,
   createConfig,
@@ -44,9 +44,7 @@ export function configureEnderdashClient(
   return targetClient;
 }
 
-export function createEnderdashHeyApiClient(
-  options: EnderdashClientOptions = {},
-) {
+export function createEnderdashHeyApiClient(options: EnderdashClientOptions = {}) {
   const targetClient = createHeyApiClient(
     createConfig({
       baseUrl: options.baseUrl ?? "https://app.enderdash.com/api/trpc",

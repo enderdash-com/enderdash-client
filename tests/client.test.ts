@@ -1,9 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import {
-  createEnderdashHeyApiClient,
-  createEnderDashHeyApiClient,
-} from "../src/index.js";
+
+import { createEnderdashHeyApiClient, createEnderDashHeyApiClient } from "../src/index.js";
 
 for (const [name, createClient] of [
   ["Enderdash", createEnderdashHeyApiClient],
