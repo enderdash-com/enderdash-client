@@ -16,7 +16,7 @@ import { Sdk } from "./generated/sdk.gen.js";
 export { client } from "./generated/client.gen.js";
 export type { Client } from "./generated/client/index.js";
 export { Sdk } from "./generated/sdk.gen.js";
-export * from "./generated/types.gen.js";
+export type * from "./generated/types.gen.js";
 
 export interface EnderdashClientOptions {
   apiKey?: string;

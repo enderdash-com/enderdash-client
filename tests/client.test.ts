@@ -5,6 +5,7 @@ import { createEnderdashHeyApiClient, createEnderDashHeyApiClient } from "../src
 
 for (const [name, createClient] of [
   ["Enderdash", createEnderdashHeyApiClient],
+  // oxlint-disable-next-line typescript/no-deprecated -- This test covers the deprecated compatibility alias.
   ["legacy EnderDash", createEnderDashHeyApiClient],
 ] as const) {
   test(`${name} client retains custom endpoints and API-key authentication`, async () => {
