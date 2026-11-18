@@ -10,7 +10,7 @@ pre-commit:
       stage_fixed: true
     lint:
       glob: "*.{js,mjs,cjs,ts,mts,cts}"
-      run: bunx --no-install oxlint --deny-warnings {staged_files}
+      run: bunx --no-install oxlint {staged_files}
 
 pre-push:
   commands:

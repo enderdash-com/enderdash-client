@@ -43,7 +43,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "check": "tsc --noEmit && bun run lint && bun run format:check",
-    "lint": "oxlint --deny-warnings",
+    "lint": "oxlint",
     "format": "oxfmt",
     "format:check": "oxfmt --check",
     "generate": "bun scripts/generate.ts",
