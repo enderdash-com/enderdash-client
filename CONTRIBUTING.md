@@ -25,7 +25,8 @@ On Windows, use `gradlew.bat` in place of `./gradlew` for Gradle commands.
 
 - `src/index.ts`: public client entry point.
 - `src/generated/`: generated API client.
-- `scripts/generate.ts`: OpenAPI generation.
+- `scripts/generate.ts`: OpenAPI generation entry point.
+- `scripts/generate-client.ts`: Effect program, config, and typed errors for generation.
 
 ## Verify your change
 

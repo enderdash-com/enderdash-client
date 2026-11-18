@@ -50,7 +50,7 @@
     "pack:check": "bun pm pack --dry-run",
     "prepack": "bun run build",
     "test": "bun test tests",
-    "prepare": "lefthook install",
+    "prepare": "lefthook install && effect-tsgo patch --no-typescript --oxlint",
     "pre-commit": "lefthook run pre-commit"
   },
   "dependencies": {
@@ -59,8 +59,10 @@
     "superjson": "^2.2.6"
   },
   "devDependencies": {
+    "@effect/tsgo": "0.70.0",
     "@hey-api/openapi-ts": "^0.99.0",
     "@types/node": "^26.0.0",
+    "effect": "4.1.4",
     "lefthook": "2.2.2",
     "oxfmt": "0.79.0",
     "oxlint": "1.94.0",

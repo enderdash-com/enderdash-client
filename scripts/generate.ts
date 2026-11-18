@@ -1,20 +1,14 @@
 import { createClient } from "@hey-api/openapi-ts";
-import { createTRPCHeyApiTypeResolvers } from "@trpc/openapi/heyapi";
+import { Effect, Layer } from "effect";
 
-const input = process.env.ENDERDASH_OPENAPI_SPEC ?? "https://app.enderdash.com/openapi.json";
+import { GenerateClientError, OpenApiGenerator, generateClient } from "./generate-client.js";
 
-await createClient({
-  input,
-  output: "src/generated",
-  plugins: [
-    {
-      name: "@hey-api/typescript",
-      "~resolvers": createTRPCHeyApiTypeResolvers(),
-    },
-    "@hey-api/client-fetch",
-    {
-      name: "@hey-api/sdk",
-      operations: { strategy: "single" },
-    },
-  ],
+const openApiGeneratorLayer = Layer.succeed(OpenApiGenerator, {
+  generate: (config) =>
+    Effect.tryPromise({
+      try: async () => createClient(config),
+      catch: (cause) => new GenerateClientError({ input: config.input, cause }),
+    }).pipe(Effect.asVoid),
 });
+
+await Effect.runPromise(generateClient().pipe(Effect.provide(openApiGeneratorLayer)));

@@ -11,3 +11,11 @@
 - While blocked, only perform the setup and diagnostics needed to install and verify the hooks.
 - Never bypass hooks with `--no-verify`, `-n`, environment variables, or configuration changes.
 - Let the hooks finish and fix failures before committing or pushing.
+
+## Effect
+
+- Effect is a dev dependency. Only the scripts use it. Do not import `effect` from `src/`, because the published client must not depend on it.
+- `scripts/generate-client.ts` holds the generation program (`generateClient`), its `OpenApiGenerator` service, the `ENDERDASH_OPENAPI_SPEC` config, and the `GenerateClientError` typed error.
+- `scripts/generate.ts` is the runtime entry point. It provides the live `OpenApiGenerator` layer, which calls `@hey-api/openapi-ts`, and runs the program once with `Effect.runPromise`.
+- Tests provide a fake `OpenApiGenerator` and a `ConfigProvider` with `Effect.provideService`.
+- Oxlint runs the `effecttsgo` rules from the `@effect/tsgo` recommended preset. `bun install` patches tsgolint through the `prepare` script.
