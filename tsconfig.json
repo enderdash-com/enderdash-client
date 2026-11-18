@@ -3,9 +3,15 @@
     "allowImportingTsExtensions": false,
     "declaration": true,
     "declarationMap": true,
+    // Off because the generated @hey-api client code in src/generated fails
+    // this check and is overwritten on every regeneration.
     "exactOptionalPropertyTypes": false,
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
     "noUncheckedIndexedAccess": true,
     "outDir": "dist",
     "rootDir": ".",
