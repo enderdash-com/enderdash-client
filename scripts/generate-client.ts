@@ -1,14 +1,17 @@
 import type { UserConfig } from "@hey-api/openapi-ts";
 import { createTRPCHeyApiTypeResolvers } from "@trpc/openapi/heyapi";
-import { Config, Context, Data, Effect } from "effect";
+import { Config, Context, Effect, Schema } from "effect";
 
 export const DEFAULT_OPENAPI_SPEC = "https://app.enderdash.com/openapi.json";
 export const GENERATED_OUTPUT = "src/generated";
 
-export class GenerateClientError extends Data.TaggedError("GenerateClientError")<{
-  readonly input: string;
-  readonly cause: unknown;
-}> {
+export class GenerateClientError extends Schema.TaggedError<
+  GenerateClientError,
+  { readonly brand: unique symbol }
+>()("GenerateClientError", {
+  input: Schema.String,
+  cause: Schema.Unknown,
+}) {
   override get message(): string {
     return `Could not generate the client from ${this.input}`;
   }
