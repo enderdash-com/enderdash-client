@@ -24,7 +24,7 @@ export class OpenApiGenerator extends Context.Service<
   {
     readonly generate: (config: ClientConfig) => Effect.Effect<void, GenerateClientError>;
   }
->()("enderdash-client/OpenApiGenerator") {}
+>()("@enderdash/client/scripts/generate-client/OpenApiGenerator") {}
 
 const openApiSpec = Config.String("ENDERDASH_OPENAPI_SPEC").pipe(
   Config.withDefault(DEFAULT_OPENAPI_SPEC),

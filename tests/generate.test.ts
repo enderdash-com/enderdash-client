@@ -21,7 +21,7 @@ async function runGenerate(env: Record<string, string>, fail?: unknown) {
           configs.push(config);
           return fail === undefined
             ? Effect.void
-            : Effect.fail(new GenerateClientError({ input: config.input, cause: fail }));
+            : Effect.fail(GenerateClientError.make({ input: config.input, cause: fail }));
         },
       }),
       Effect.provideService(ConfigProvider.ConfigProvider, ConfigProvider.fromEnv({ env })),

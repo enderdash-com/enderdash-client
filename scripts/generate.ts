@@ -7,7 +7,7 @@ const openApiGeneratorLayer = Layer.succeed(OpenApiGenerator, {
   generate: (config) =>
     Effect.tryPromise({
       try: async () => createClient(config),
-      catch: (cause) => new GenerateClientError({ input: config.input, cause }),
+      catch: (cause) => GenerateClientError.make({ input: config.input, cause }),
     }).pipe(Effect.asVoid),
 });
 

@@ -4,8 +4,8 @@
     "declaration": true,
     "declarationMap": true,
     "erasableSyntaxOnly": true,
-    // Off because the generated @hey-api client code in src/generated fails
-    // this check and is overwritten on every regeneration.
+    // The bundled Hey API runtime emits explicit undefined for optional fields.
+    // Regeneration overwrites fixes to these generated request and event types.
     "exactOptionalPropertyTypes": false,
     "module": "NodeNext",
     "moduleResolution": "NodeNext",

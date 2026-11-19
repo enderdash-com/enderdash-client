@@ -30,7 +30,7 @@ export function configureEnderdashClient(
   options: EnderdashClientOptions = {},
 ): Client {
   const headers = new Headers(options.headers);
-  if (options.apiKey) {
+  if (options.apiKey !== undefined && options.apiKey !== "") {
     headers.set("X-API-Key", options.apiKey);
   }
 
