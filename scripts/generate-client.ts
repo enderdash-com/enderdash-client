@@ -9,7 +9,7 @@ export class GenerateClientError extends Data.TaggedError("GenerateClientError")
   readonly input: string;
   readonly cause: unknown;
 }> {
-  override get message() {
+  override get message(): string {
     return `Could not generate the client from ${this.input}`;
   }
 }

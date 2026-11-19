@@ -28,7 +28,7 @@ export interface EnderdashClientOptions {
 export function configureEnderdashClient(
   targetClient: Client,
   options: EnderdashClientOptions = {},
-) {
+): Client {
   const headers = new Headers(options.headers);
   if (options.apiKey) {
     headers.set("X-API-Key", options.apiKey);
@@ -44,7 +44,7 @@ export function configureEnderdashClient(
   return targetClient;
 }
 
-export function createEnderdashHeyApiClient(options: EnderdashClientOptions = {}) {
+export function createEnderdashHeyApiClient(options: EnderdashClientOptions = {}): Client {
   const targetClient = createHeyApiClient(
     createConfig({
       baseUrl: options.baseUrl ?? "https://app.enderdash.com/api/trpc",
@@ -54,7 +54,7 @@ export function createEnderdashHeyApiClient(options: EnderdashClientOptions = {}
   return configureEnderdashClient(targetClient, options);
 }
 
-export function createEnderdashClient(options: EnderdashClientOptions = {}) {
+export function createEnderdashClient(options: EnderdashClientOptions = {}): Sdk {
   return new Sdk({ client: createEnderdashHeyApiClient(options) });
 }
 

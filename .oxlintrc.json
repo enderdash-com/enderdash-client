@@ -110,6 +110,14 @@
           }
         ]
       }
-    ]
+    ],
+    "typescript/consistent-type-definitions": ["error", "interface"],
+    "typescript/array-type": "error",
+    "typescript/no-inferrable-types": "error",
+    "typescript/prefer-function-type": "error",
+    "typescript/consistent-indexed-object-style": "error",
+    "unicorn/switch-case-braces": "error",
+    "eslint/no-useless-assignment": "error",
+    "typescript/explicit-module-boundary-types": "error"
   }
 }
