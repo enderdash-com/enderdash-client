@@ -18,4 +18,4 @@
 - `scripts/generate-client.ts` holds the generation program (`generateClient`), its `OpenApiGenerator` service, the `ENDERDASH_OPENAPI_SPEC` config, and the `GenerateClientError` typed error.
 - `scripts/generate.ts` is the runtime entry point. It provides the live `OpenApiGenerator` layer, which calls `@hey-api/openapi-ts`, and runs the program once with `Effect.runPromise`.
 - Tests provide a fake `OpenApiGenerator` and a `ConfigProvider` with `Effect.provideService`.
-- Oxlint runs the `effecttsgo` rules from the `@effect/tsgo` recommended preset. `bun install` patches tsgolint through the `prepare` script.
+- Oxlint runs the `effecttsgo` rules from the `@effect/tsgo` strict preset, so every finding is an error. `bun install` patches tsgolint through the `prepare` script.
