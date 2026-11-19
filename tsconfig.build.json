@@ -3,6 +3,10 @@
   "compilerOptions": {
     "allowImportingTsExtensions": false,
     "emitDeclarationOnly": false,
+    // Off because the generated @hey-api SDK and client runtime in
+    // src/generated lack the explicit types this check needs, and
+    // `bun run generate` overwrites any manual fix.
+    "isolatedDeclarations": false,
     "noEmit": false,
     "rootDir": "src"
   },
