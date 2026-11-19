@@ -5,7 +5,8 @@
   "categories": {
     "correctness": "error",
     "suspicious": "error",
-    "perf": "error"
+    "perf": "error",
+    "pedantic": "error"
   },
   "options": {
     "typeAware": true,
@@ -27,6 +28,22 @@
     }
   ],
   "rules": {
+    // Pedantic rules that only measure size, encode opinion, or duplicate other rules.
+    "typescript/prefer-readonly-parameter-types": "off",
+    "eslint/max-lines": "off",
+    "eslint/max-lines-per-function": "off",
+    "eslint/max-depth": "off",
+    "eslint/max-nested-callbacks": "off",
+    "eslint/max-classes-per-file": "off",
+    "import/max-dependencies": "off",
+    "eslint/no-inline-comments": "off",
+    "eslint/no-warning-comments": "off",
+    "eslint/no-negated-condition": "off",
+    "unicorn/no-negated-condition": "off",
+    // Duplicates typescript/require-await, which is type-aware and scoped per file.
+    "eslint/require-await": "off",
+    // Conflicts with typescript/prefer-nullish-coalescing, which prefers ?? and ?. checks.
+    "typescript/strict-boolean-expressions": "off",
     "typescript/restrict-plus-operands": "error",
     "typescript/prefer-promise-reject-errors": "error",
     "typescript/return-await": "error",
